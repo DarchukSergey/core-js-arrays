@@ -584,7 +584,7 @@ function sortDigitNamesByNumericOrder(arr) {
     'six',
     'seven',
     'eight',
-    'nine'
+    'nine',
   ];
 
   return arr.sort((a, b) => digitOrder.indexOf(a) - digitOrder.indexOf(b));
